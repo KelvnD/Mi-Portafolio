@@ -1,0 +1,219 @@
+/* Reset y estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
+    background-color: #121212; /* Fondo oscuro */
+    color: #eaeaea; /* Texto claro */
+    line-height: 1.6;
+  }
+  
+  /* Enlaces */
+  a {
+    color: #56b6c2; /* Color similar al azul en editores de código */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sección General */
+  section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Sección de Inicio */
+  .inicio {
+    background-color: #1e1e1e; /* Fondo más oscuro */
+    color: #ff9e64; /* Naranja suave para resaltar */
+  }
+  
+  .inicio h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .inicio p {
+    font-size: 1.6rem;
+  }
+  
+  .inicio i {
+    margin-right: 10px;
+  }
+  
+  /* Sección Acerca de mí */
+  .acerca {
+    background-color: #1e1e1e;
+  }
+  
+  .acerca h2 {
+    font-size: 2.8rem;
+    color: #56b6c2; /* Azul */
+    margin-bottom: 20px;
+  }
+  
+  .acerca i {
+    margin-right: 10px;
+  }
+  
+  .acerca p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+  }
+  
+  /* Sección Habilidades */
+  .habilidades {
+    background-color: #121212;
+    border-top: 3px solid #56b6c2; /* Línea azul para separar */
+  }
+  
+  .habilidades h2 {
+    font-size: 2.8rem;
+    color: #56b6c2; /* Azul */
+    margin-bottom: 20px;
+  }
+  
+  .habilidades ul {
+    list-style-type: none;
+  }
+  
+  .habilidades ul li {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .habilidades i {
+    margin-right: 10px;
+  }
+  
+  /* Sección Experiencia */
+  .experiencia {
+    background-color: #1e1e1e;
+  }
+  
+  .experiencia h2 {
+    font-size: 2.8rem;
+    color: #56b6c2;
+    margin-bottom: 20px;
+  }
+  
+  .experiencia i {
+    margin-right: 10px;
+  }
+  
+  .experiencia p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+  }
+  
+  /* Sección Educación */
+  .educacion {
+    background-color: #121212;
+  }
+  
+  .educacion h2 {
+    font-size: 2.8rem;
+    color: #56b6c2;
+    margin-bottom: 20px;
+  }
+  
+  .educacion ul {
+    list-style-type: none;
+  }
+  
+  .educacion ul li {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .educacion i {
+    margin-right: 10px;
+  }
+  
+  /* Sección Certificados */
+  .certificados {
+    background-color: #1e1e1e;
+  }
+  
+  .certificados h2 {
+    font-size: 2.8rem;
+    color: #56b6c2;
+    margin-bottom: 20px;
+  }
+  
+  .certificados i {
+    margin-right: 10px;
+  }
+  
+  .certificados p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+  }
+  
+  /* Sección de Contacto */
+  .contacto {
+    background-color: #121212;
+    color: #eaeaea;
+    padding: 80px 20px;
+  }
+  
+  .contacto h2 {
+    font-size: 2.8rem;
+    color: #ff9e64; /* Naranja para resaltar */
+    margin-bottom: 20px;
+  }
+  
+  .contacto i {
+    margin-right: 10px;
+  }
+  
+  .contacto ul {
+    list-style-type: none;
+  }
+  
+  .contacto ul li {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+  
+  .contacto a {
+    color: #56b6c2;
+    text-decoration: none;
+  }
+  
+  .contacto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos de Responsividad */
+  @media (max-width: 768px) {
+    .inicio h1 {
+      font-size: 2.8rem;
+    }
+  
+    .inicio p {
+      font-size: 1.4rem;
+    }
+  
+    .acerca h2, .habilidades h2, .experiencia h2, .educacion h2, .certificados h2 {
+      font-size: 2.2rem;
+    }
+  
+    .contacto h2 {
+      font-size: 2.2rem;
+    }
+  }
+  
